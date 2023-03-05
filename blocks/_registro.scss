@@ -1,0 +1,23 @@
+.registro {
+  width: 390px;
+  background-color: $background-purple;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  h1 {
+    color: $white-title;
+    text-align: center;
+    font-weight: 700;
+    line-height: 1.12;
+    letter-spacing: -.8px;
+    font-size: 2rem;
+    a {
+      color: $yellow-title;
+    }
+  }
+
+  &__video {
+    height: 390px;
+  }
+}

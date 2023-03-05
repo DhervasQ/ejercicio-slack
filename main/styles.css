@@ -1,0 +1,201 @@
+.white__title {
+  color: white;
+}
+
+.yellow__title {
+  color: #ecb22e;
+}
+
+.button-dark {
+  background-color: #611f69;
+  color: #fff;
+  fill: #fff;
+  box-shadow: inset 0 0 0 1px #fff;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  margin: 30px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  text-align: center;
+  font-family: Slack-Circular-Pro, "Helvetica Neue", Helvetica, "Segoe UI", Tahoma, Arial, sans-serif;
+  font-weight: 700;
+  line-height: 1.2857;
+  letter-spacing: 0.8px;
+  font-size: 0.875rem;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 19px 40px 20px;
+  display: block;
+}
+
+.button-light {
+  background-color: #fff;
+  color: #611f69;
+  fill: #611f69;
+  box-shadow: inset 0 0 0 1px #611f69;
+  -webkit-appearance: none;
+     -moz-appearance: none;
+          appearance: none;
+  margin: 30px;
+  border: none;
+  cursor: pointer;
+  border-radius: 4px;
+  text-align: center;
+  font-family: Slack-Circular-Pro, "Helvetica Neue", Helvetica, "Segoe UI", Tahoma, Arial, sans-serif;
+  font-weight: 700;
+  line-height: 1.2857;
+  letter-spacing: 0.8px;
+  font-size: 0.875rem;
+  text-decoration: none;
+  padding: 19px 40px 20px;
+  display: block;
+}
+
+header {
+  background-color: #4a154b;
+  width: 390px;
+}
+header .imageHeader {
+  display: flex;
+  justify-content: space-between;
+  margin: auto;
+  width: 390px;
+}
+
+.registro {
+  width: 390px;
+  background-color: #4a154b;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.registro h1 {
+  color: white;
+  text-align: center;
+  font-weight: 700;
+  line-height: 1.12;
+  letter-spacing: -0.8px;
+  font-size: 2rem;
+}
+.registro h1 a {
+  color: #ecb22e;
+}
+.registro__video {
+  height: 390px;
+}
+
+.companies {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgba(244, 237, 228, 0.9568627451);
+}
+.companies__item {
+  display: flex;
+  height: 60px;
+}
+
+.card {
+  background-color: rgba(244, 237, 228, 0.9568627451);
+  padding-bottom: 40px;
+}
+
+.card__title {
+  font-family: Slack-Larsseit, "Helvetica Neue", Helvetica, "Segoe UI", Tahoma, Arial, sans-serif;
+  font-weight: 700;
+  line-height: 1.1875;
+  letter-spacing: -0.3px;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+}
+
+.card__text {
+  font-family: Slack-Circular-Pro, "Helvetica Neue", Helvetica, "Segoe UI", Tahoma, Arial, sans-serif;
+  font-weight: 400;
+  line-height: 1.4444;
+  letter-spacing: normal;
+  font-size: 1.125rem;
+}
+
+.card__link {
+  font-family: Slack-Circular-Pro, "Helvetica Neue", Helvetica, "Segoe UI", Tahoma, Arial, sans-serif;
+  line-height: 1.4444;
+  letter-spacing: normal;
+  font-size: 1.125rem;
+  display: inline-block;
+  margin-bottom: 0;
+  font-weight: 400;
+  color: #1264a3;
+}
+
+.equipo__background {
+  background-color: #36c5f0;
+  border-radius: 6px;
+  padding: 1.5rem 1rem;
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.comunication__background {
+  background-color: #ecb22e;
+  border-radius: 6px;
+  padding: 1.5rem 1rem;
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.herramientas__background {
+  background-color: #2eb67b;
+  border-radius: 6px;
+  padding: 1.5rem 1rem;
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.ventas {
+  font-family: Slack-Larsseit, "Helvetica Neue", Helvetica, "Segoe UI", Tahoma, Arial, sans-serif;
+  font-weight: 700;
+  line-height: 1.1875;
+  letter-spacing: -0.3px;
+  margin-bottom: 1rem;
+  font-size: 2rem;
+  text-align: center;
+}
+
+.ventas__title--p {
+  font-family: Slack-Circular-Pro, "Helvetica Neue", Helvetica, "Segoe UI", Tahoma, Arial, sans-serif;
+  font-weight: 400;
+  line-height: 1.4444;
+  letter-spacing: normal;
+  font-size: 1.125rem;
+  text-align: center;
+}
+
+.grupone {
+  display: flex;
+  flex-direction: column;
+  align-content: center;
+  background-color: rgba(244, 237, 228, 0.9568627451);
+  overflow: auto;
+  height: 100%;
+}
+
+.grupone2 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-content: center;
+  overflow: auto;
+  height: 100%;
+  background-color: white;
+}
+
+body {
+  background-color: rgba(244, 237, 228, 0.9568627451);
+}/*# sourceMappingURL=styles.css.map */

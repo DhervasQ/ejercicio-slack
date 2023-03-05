@@ -1,0 +1,12 @@
+
+.comunication__background {
+  @include setbackground(#ecb22e);
+  border-radius: 6px;
+  padding: 1.5rem 1rem;
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+
+

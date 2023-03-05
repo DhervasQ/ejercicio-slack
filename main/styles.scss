@@ -1,0 +1,36 @@
+@import"../util/colors";
+@import"../util/mixins";
+@import"../blocks/buttons";
+@import"../blocks/header";
+@import"../blocks/registro";
+@import"../blocks/companies";
+@import"../blocks/card";
+@import"../blocks/equipo";
+@import"../blocks/comunicacion";
+@import"../blocks/herramientas";
+@import"../blocks/ventas";
+@import"../blocks/resultados";
+@import"../blocks/funciones";
+@import"../blocks/prueba";
+@import"../blocks/menu";
+@import"../blocks/redes";
+.grupone {
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    background-color: #f4ede4f4;
+    overflow: auto;
+    height: 100%;
+}
+.grupone2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    align-content: center;
+    overflow: auto;
+    height: 100%;
+    background-color: white;
+}
+body{
+    background-color: #f4ede4f4;
+}

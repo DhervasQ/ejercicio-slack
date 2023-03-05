@@ -1,0 +1,10 @@
+header{
+    background-color:$background-purple;
+    width: 390px;
+    .imageHeader{
+        display: flex;
+        justify-content: space-between;
+        margin: auto;
+        width:390px;
+    }
+}

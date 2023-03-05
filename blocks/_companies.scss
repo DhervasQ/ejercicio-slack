@@ -1,0 +1,11 @@
+.companies {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f4ede4f4;
+    &__item {
+        display: flex;
+        height: 60px;
+    }
+}

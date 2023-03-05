@@ -1,0 +1,10 @@
+
+.herramientas__background {
+  @include setbackground(#2eb67b);
+  border-radius: 6px;
+  padding: 1.5rem 1rem;
+  margin-bottom: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
